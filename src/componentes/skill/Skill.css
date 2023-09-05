@@ -1,0 +1,42 @@
+.skill-container {
+  background-color: yellow;
+  height: 40vw;
+  width: 200vh;
+}
+.card-skill-container {
+  display: grid;
+  grid-template-columns: 46% 46%;
+  gap: 1em;
+  background-color: yellow;
+  margin-left: 60px;
+  margin-top: 40px;
+}
+.skill {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 76px;
+  margin-top: 0%;
+}
+.progress-section1 {
+  background-color: black;
+  padding: 10px;
+  box-shadow: 0px 4px 32px rgb(156, 155, 136);
+}
+.progress-section2 {
+  background-color: black;
+  padding: 10px;
+  box-shadow: 0px 4px 32px rgb(156, 155, 136);
+}
+.linea5 {
+  position: relative;
+  left: 0;
+  width: 60%;
+  height: 2px;
+  background-color: black;
+  margin-top: 120px;
+}
+.nombres-skill {
+  color: yellow;
+}

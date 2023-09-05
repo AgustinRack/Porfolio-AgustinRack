@@ -1,0 +1,33 @@
+.about-contenedor {
+  background-color: yellow;
+  width: 100vw;
+  height: 100vh;
+}
+.about-descripcion {
+  background-color: brown;
+  padding: 10px;
+  width: 140vh;
+  height: 20vh;
+  margin-left: 200px;
+  margin-top: 100px;
+  color: yellow;
+  background-color: black;
+  box-shadow: 0px 4px 32px rgb(156, 155, 136);
+}
+.about-titulo {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 50px;
+  margin-left: 500px;
+}
+.linea3 {
+  position: relative;
+  left: 0;
+  width: 60%;
+  height: 2px;
+  background-color: black;
+  margin-top: 120px;
+}
+.about-descripcion:hover {
+  transform: translate(0, -5px);
+}

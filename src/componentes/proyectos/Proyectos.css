@@ -1,0 +1,46 @@
+.cards-container {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+.proyects-container {
+  background-color: yellow;
+  width: 100vw;
+  height: 120vh;
+}
+.proyects-titulo {
+  background-color: yellow;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 50px;
+  margin-left: 500px;
+  padding: 10px;
+}
+.proyectos-boton {
+  background-color: yellow;
+  border-color: yellow;
+}
+.custom-card {
+  background-color: black;
+  color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.style-card {
+  background-color: black;
+  color: yellow;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0);
+}
+.linea4 {
+  position: relative;
+  left: 0;
+  width: 60%;
+  height: 2px;
+  background-color: black;
+  margin-top: 80px;
+}
+.style-card:hover {
+  transform: translate(0, -10px);
+}

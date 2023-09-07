@@ -5,7 +5,7 @@ import "./Navbar.css";
 
 function MyNavbar() {
   return (
-    <Navbar expand="lg" className="color-navbar fixed-top">
+    <Navbar expand="sm" className="color-navbar fixed-top">
       <Container>
         <Nav.Link className="colorLetras1" href="/">
           Agustin Rack

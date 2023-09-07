@@ -1,21 +1,25 @@
 .cards-container {
-  background-color: yellow;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-content: center;
   gap: 40px;
   margin-top: 50px;
+  background-image: linear-gradient(to bottom, transparent 95%, yellow 100%);
 }
 .proyects-container {
-  background-color: yellow;
-  width: 100vw;
+  background-color: black;
+  width: 98.8vw;
   height: 120vh;
 }
 .proyects-titulo {
-  background-color: yellow;
+  background-color: black;
   font-family: "Open Sans", sans-serif;
-  color: black;
-  font-size: 50px;
+  font-family: "Pacifico", cursive;
+  font-family: "Qwitcher Grypen", cursive;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 145px;
+  font-size: 80px;
   margin-left: 500px;
   padding: 10px;
 }

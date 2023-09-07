@@ -1,24 +1,31 @@
 .about-contenedor {
   background-color: yellow;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  max-width: 2400px;
+  margin: auto;
+  background-image: linear-gradient(to bottom, transparent 95%, black 100%);
 }
 .about-descripcion {
-  background-color: brown;
   padding: 10px;
   width: 140vh;
   height: 20vh;
   margin-left: 200px;
   margin-top: 100px;
-  color: yellow;
-  background-color: black;
-  box-shadow: 0px 4px 32px rgb(156, 155, 136);
+  color: black;
+  background-color: rgb(247, 230, 4);
+  box-shadow: 0px 4px 32px rgb(12, 12, 12);
 }
 .about-titulo {
   font-family: "Open Sans", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Qwitcher Grypen", cursive;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 145px;
+  font-size: 80px;
   color: black;
-  font-size: 50px;
   margin-left: 500px;
+  padding-top: 50px;
 }
 .linea3 {
   position: relative;
@@ -30,4 +37,35 @@
 }
 .about-descripcion:hover {
   transform: translate(0, -5px);
+}
+.boton {
+  margin-top: 20px;
+}
+.circulos-container {
+  width: 300px;
+  height: 300px;
+  background: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 80px;
+  right: 370px;
+  z-index: 1;
+}
+.circulo1 {
+  top: 50px;
+  right: 100px;
+  margin-left: 50px;
+}
+.circulo2 {
+  top: 50px;
+  right: 100px;
+}
+.circulos-container2 {
+  width: 350px;
+  height: 350px;
+  background: rgba(222, 206, 121, 1);
+  border-radius: 50%;
+  position: absolute;
+  top: 180px;
+  right: 170px;
 }

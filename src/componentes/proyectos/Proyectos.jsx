@@ -16,7 +16,7 @@ function MyProyectos() {
           <Card.Body>
             <Card.Title>Teezy&Co</Card.Title>
             <Card.Text>E-commerce de tienda de ropa</Card.Text>
-            <Button className="proyectos-boton">
+            <Button variant="outline-light" className="proyectos-boton">
               <img src={github} alt="GitHub" />
             </Button>
           </Card.Body>
@@ -26,7 +26,7 @@ function MyProyectos() {
           <Card.Body>
             <Card.Title>House Of Developer</Card.Title>
             <Card.Text>Inmobiliaria</Card.Text>
-            <Button className="proyectos-boton">
+            <Button variant="outline-light" className="proyectos-boton">
               <img src={github} alt="GitHub" className="btn-primary" />
             </Button>
           </Card.Body>
@@ -36,12 +36,13 @@ function MyProyectos() {
           <Card.Body>
             <Card.Title>TMDB</Card.Title>
             <Card.Text>Plataforma de peliculas</Card.Text>
-            <Button className="proyectos-boton">
+            <Button variant="outline-light" className="proyectos-boton">
               <img src={github} alt="GitHub" />
             </Button>
           </Card.Body>
         </Card>
       </div>
+      <div></div>
       <div className="linea3"></div>
     </div>
   );

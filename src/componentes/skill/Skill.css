@@ -1,7 +1,7 @@
 .skill-container {
   background-color: yellow;
-  height: 40vw;
-  width: 200vh;
+  width: 98.8vw;
+  height: 100vh;
 }
 .card-skill-container {
   display: grid;
@@ -15,8 +15,12 @@
   display: flex;
   justify-content: center;
   font-family: "Open Sans", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Qwitcher Grypen", cursive;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 145px;
+  font-size: 80px;
   color: black;
-  font-size: 76px;
   margin-top: 0%;
 }
 .progress-section1 {

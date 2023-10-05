@@ -1,59 +1,77 @@
 .home-container {
-  background: yellow;
+  background: black;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100vw;
+  width: 98.8vw;
   height: 100vh;
-}
-.home-content {
-  display: flex;
-  width: 100%;
-  height: 70%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  max-width: 1400px;
+  margin: auto;
+  background-image: linear-gradient(to bottom, transparent 95%, yellow 100%);
 }
 .nombre {
   font-family: "Open Sans", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Qwitcher Grypen", cursive;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 145px;
+  font-size: 80px;
   color: yellow;
-  font-size: 76px;
-}
-.container-line {
-  width: 100%;
-  height: 30%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-.linea2 {
-  position: relative;
-  left: 0;
-  width: 60%;
-  height: 2px;
-  background-color: black;
-}
-.home-cuadro {
-  height: 200px;
-  background-color: black;
-  width: 70vw;
-  margin-top: 100px;
-  box-shadow: 0px 4px 32px rgb(156, 155, 136);
+  margin-left: 20px;
 }
 .subtitulo {
   color: yellow;
+  margin-left: 100px;
 }
-.logo {
-  margin-right: 20px;
+.home-cuadro {
+  align-self: flex-start;
 }
-.about-descripcion:hover {
-  transform: translate(0, -10px);
+.circulos-container {
+  width: 25%;
+  height: 50%;
+  background: yellow;
+  border-radius: 50%;
+  position: absolute;
+  top: 80px;
+  right: 350px;
+  z-index: 1;
 }
-.logo:hover {
-  transform: translate(0, -5px);
+.circulo1 {
+  top: 50vh;
+  right: 10vw;
+  margin-left: 50px;
 }
-.home-cuadro:hover {
-  transform: translate(0, -5px);
+.circulo2 {
+  top: 50px;
+  right: 100px;
+  width: 300px;
+  height: 300px;
+  background: rgb(143, 143, 143); /* Cambia el color según tu preferencia */
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 30px; /* Ajusta la posición izquierda para separarlos */
+}
+.circulos-container2 {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 180px;
+  right: 170px;
+  z-index: 2;
+}
+.compu {
+  position: absolute;
+  top: 25vh; /* Ajusta la posición vertical de la imagen */
+  left: 5vw; /* Ajusta la posición horizontal de la imagen */
+  margin-left: 45vw;
+  z-index: 90;
+  width: 30vw;
+}
+@media (max-width: 768px) {
+  .circulos-container {
+    width: 30%; /* Cambia el porcentaje según tu preferencia para pantallas más pequeñas */
+    height: 30%; /* Cambia el porcentaje según tu preferencia para pantallas más pequeñas */
+  }
 }

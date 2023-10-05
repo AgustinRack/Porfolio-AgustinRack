@@ -44,6 +44,9 @@ function Contactos() {
           </Form>
         </div>
       </div>
+      <footer>
+        <p>&copy; 2023 Agustin Rack. Todos los derechos reservados.</p>
+      </footer>
     </div>
   );
 }

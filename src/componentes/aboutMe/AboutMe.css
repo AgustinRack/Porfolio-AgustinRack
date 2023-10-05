@@ -1,33 +1,44 @@
+/* .about-contenedor {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 98.8vw;
+  height: 100vh;
+  max-width: 1400px;
+  margin: auto;
+  background-image: linear-gradient(to bottom, transparent 95%, black 100%);
+} */
 .about-contenedor {
   background-color: yellow;
-  width: 100vw;
-  height: 100vh;
-}
-.about-descripcion {
-  background-color: brown;
-  padding: 10px;
-  width: 140vh;
-  height: 20vh;
-  margin-left: 200px;
-  margin-top: 100px;
-  color: yellow;
-  background-color: black;
-  box-shadow: 0px 4px 32px rgb(156, 155, 136);
+  grid-template-columns: 50% 50%;
+  width: auto;
+  height: auto;
 }
 .about-titulo {
   font-family: "Open Sans", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-family: "Qwitcher Grypen", cursive;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 145px;
+  font-size: 80px;
   color: black;
-  font-size: 50px;
-  margin-left: 500px;
+  text-align: center;
 }
-.linea3 {
-  position: relative;
-  left: 0;
-  width: 60%;
-  height: 2px;
-  background-color: black;
-  margin-top: 120px;
+.about-descripcion {
+  width: 70vw;
+  height: 19vh;
+  color: black;
+  font-size: 20px;
+  background-color: rgb(247, 230, 4);
+  box-shadow: 0px 4px 32px rgb(12, 12, 12);
+  margin-top: 50px;
+  text-align: center;
 }
 .about-descripcion:hover {
   transform: translate(0, -5px);
+}
+.boton {
+  margin-top: 20px;
 }

@@ -1,5 +1,5 @@
 .cards-container {
-  background-color: yellow;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -7,30 +7,34 @@
   margin-top: 50px;
 }
 .proyects-container {
-  background-color: yellow;
-  width: 100vw;
+  background-color: black;
+  width: 98.8vw;
   height: 120vh;
 }
 .proyects-titulo {
-  background-color: yellow;
+  background-color: black;
   font-family: "Open Sans", sans-serif;
-  color: black;
-  font-size: 50px;
+  font-family: "Pacifico", cursive;
+  font-family: "Qwitcher Grypen", cursive;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 145px;
+  font-size: 80px;
   margin-left: 500px;
   padding: 10px;
+  color: yellow;
 }
 .proyectos-boton {
   background-color: yellow;
-  border-color: yellow;
+  border-color: black;
 }
 .custom-card {
-  background-color: black;
+  background-color: yellow;
   color: white;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 .style-card {
-  background-color: black;
-  color: yellow;
+  background-color: yellow;
+  color: black;
   box-shadow: 0px 4px 8px rgba(0, 0, 0);
 }
 .linea4 {

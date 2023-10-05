@@ -28,23 +28,30 @@
   align-self: flex-start;
 }
 .circulos-container {
-  width: 300px;
-  height: 300px;
+  width: 25%;
+  height: 50%;
   background: yellow;
   border-radius: 50%;
   position: absolute;
   top: 80px;
-  right: 370px;
+  right: 350px;
   z-index: 1;
 }
 .circulo1 {
-  top: 50px;
-  right: 100px;
+  top: 50vh;
+  right: 10vw;
   margin-left: 50px;
 }
 .circulo2 {
   top: 50px;
   right: 100px;
+  width: 300px;
+  height: 300px;
+  background: rgb(143, 143, 143); /* Cambia el color según tu preferencia */
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 30px; /* Ajusta la posición izquierda para separarlos */
 }
 .circulos-container2 {
   width: 350px;
@@ -61,4 +68,10 @@
   margin-left: 45vw;
   z-index: 90;
   width: 30vw;
+}
+@media (max-width: 768px) {
+  .circulos-container {
+    width: 30%; /* Cambia el porcentaje según tu preferencia para pantallas más pequeñas */
+    height: 30%; /* Cambia el porcentaje según tu preferencia para pantallas más pequeñas */
+  }
 }

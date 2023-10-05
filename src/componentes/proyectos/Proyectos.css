@@ -5,7 +5,6 @@
   align-content: center;
   gap: 40px;
   margin-top: 50px;
-  background-image: linear-gradient(to bottom, transparent 95%, yellow 100%);
 }
 .proyects-container {
   background-color: black;
@@ -22,19 +21,20 @@
   font-size: 80px;
   margin-left: 500px;
   padding: 10px;
+  color: yellow;
 }
 .proyectos-boton {
   background-color: yellow;
-  border-color: yellow;
+  border-color: black;
 }
 .custom-card {
-  background-color: black;
+  background-color: yellow;
   color: white;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 .style-card {
-  background-color: black;
-  color: yellow;
+  background-color: yellow;
+  color: black;
   box-shadow: 0px 4px 8px rgba(0, 0, 0);
 }
 .linea4 {

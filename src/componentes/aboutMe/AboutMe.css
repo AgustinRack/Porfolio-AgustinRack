@@ -1,4 +1,4 @@
-/* .about-contenedor {
+.about-contenedor {
   background-color: yellow;
   display: flex;
   justify-content: center;
@@ -9,12 +9,6 @@
   max-width: 1400px;
   margin: auto;
   background-image: linear-gradient(to bottom, transparent 95%, black 100%);
-} */
-.about-contenedor {
-  background-color: yellow;
-  grid-template-columns: 50% 50%;
-  width: auto;
-  height: auto;
 }
 .about-titulo {
   font-family: "Open Sans", sans-serif;
@@ -30,15 +24,10 @@
   width: 70vw;
   height: 19vh;
   color: black;
-  font-size: 20px;
-  background-color: rgb(247, 230, 4);
-  box-shadow: 0px 4px 32px rgb(12, 12, 12);
+  font-size: 2vw;
   margin-top: 50px;
   text-align: center;
 }
-.about-descripcion:hover {
-  transform: translate(0, -5px);
-}
 .boton {
-  margin-top: 20px;
+  margin-top: 90px;
 }

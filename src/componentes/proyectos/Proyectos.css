@@ -10,18 +10,18 @@
   background-color: black;
   width: 98.8vw;
   height: 120vh;
+  background-image: linear-gradient(to bottom, transparent 95%, yellow 100%);
 }
 .proyects-titulo {
-  background-color: black;
   font-family: "Open Sans", sans-serif;
   font-family: "Pacifico", cursive;
   font-family: "Qwitcher Grypen", cursive;
   font-family: "Shadows Into Light", cursive;
   font-weight: 145px;
   font-size: 80px;
-  margin-left: 500px;
-  padding: 10px;
   color: yellow;
+  text-align: center;
+  padding-top: 50px;
 }
 .proyectos-boton {
   background-color: yellow;

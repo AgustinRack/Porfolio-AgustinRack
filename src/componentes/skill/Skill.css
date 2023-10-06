@@ -2,14 +2,8 @@
   background-color: yellow;
   width: 98.8vw;
   height: 100vh;
-}
-.card-skill-container {
-  display: grid;
-  grid-template-columns: 46% 46%;
-  gap: 1em;
-  background-color: yellow;
-  margin-left: 60px;
-  margin-top: 40px;
+  background-image: linear-gradient(to bottom, transparent 95%, black 100%);
+  text-align: center;
 }
 .skill {
   display: flex;
@@ -21,26 +15,88 @@
   font-weight: 145px;
   font-size: 80px;
   color: black;
-  margin-top: 0%;
+  padding-top: 50px;
 }
-.progress-section1 {
-  background-color: black;
-  padding: 10px;
-  box-shadow: 0px 4px 32px rgb(156, 155, 136);
+.backFront {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; /* Esto distribuirá los elementos horizontalmente */
+  align-items: center; /* Esto centrará los elementos verticalmente */
 }
-.progress-section2 {
-  background-color: black;
-  padding: 10px;
-  box-shadow: 0px 4px 32px rgb(156, 155, 136);
+.backend {
+  padding-top: 30px;
 }
-.linea5 {
-  position: relative;
-  left: 0;
-  width: 60%;
-  height: 2px;
-  background-color: black;
-  margin-top: 120px;
+.frontend {
+  padding-top: 30px;
 }
-.nombres-skill {
-  color: yellow;
+.additional {
+  padding-top: 30px;
+}
+.javascript {
+  width: 40px;
+  height: auto;
+}
+.node {
+  width: 40px;
+  height: auto;
+}
+.express {
+  width: 40px;
+  height: auto;
+}
+.mongo {
+  width: 40px;
+  height: auto;
+}
+.post {
+  width: 40px;
+  height: auto;
+}
+.sequelize {
+  width: 40px;
+  height: auto;
+}
+.react {
+  width: 40px;
+  height: auto;
+}
+.axios {
+  width: 40px;
+  height: auto;
+}
+.bootstrap {
+  width: 40px;
+  height: auto;
+}
+.css {
+  width: 40px;
+  height: auto;
+}
+.redux {
+  width: 40px;
+  height: auto;
+}
+.git {
+  width: 40px;
+  height: auto;
+}
+.figma {
+  width: 40px;
+  height: auto;
+}
+.materialUi {
+  width: 40px;
+  height: auto;
+}
+.html {
+  width: 40px;
+  height: auto;
+}
+.photoshop {
+  width: 40px;
+  height: auto;
+}
+.vite {
+  width: 40px;
+  height: auto;
 }

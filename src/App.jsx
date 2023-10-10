@@ -10,12 +10,24 @@ import MyProyectos from "./componentes/proyectos/Proyectos";
 function App() {
   return (
     <div>
-      <MyNavbar />
-      <Home />
-      <AboutMe />
-      <MyProyectos />
-      <Skill />
-      <Contactos />
+      <div id="navbar">
+        <MyNavbar />
+      </div>
+      <div id="home">
+        <Home />
+      </div>
+      <div id="about-me">
+        <AboutMe />
+      </div>
+      <div id="proyects">
+        <MyProyectos />
+      </div>
+      <div id="skill">
+        <Skill />
+      </div>
+      <div id="contactos">
+        <Contactos />
+      </div>
     </div>
   );
 }

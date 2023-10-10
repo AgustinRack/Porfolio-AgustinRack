@@ -10,19 +10,27 @@ function Contactos() {
     <div>
       <div className="contacts-container">
         <div className="contact">
-          <h1 className="contacto">CONTACTOS</h1>
+          <h1 className="contacto">CONTACTS</h1>
           <div className="contactos-icon">
             <div>
-              <img src={email} alt="email" className="linkedin" />
+              <a href="https://outlook.live.com/mail/0/">
+                <img src={email} alt="email" className="linkedin" />
+              </a>
             </div>
             <div>
-              <img src={linkedin} alt="linkedin" className="linkedin" />
+              <a href="https://www.linkedin.com/in/agustinrack-desarrollador-fullstack/">
+                <img src={linkedin} alt="linkedin" className="linkedin" />
+              </a>
             </div>
             <div>
-              <img src={gitHub} alt="gitHub" className="linkedin" />
+              <a href="https://github.com/AgustinRack">
+                <img src={gitHub} alt="gitHub" className="linkedin" />
+              </a>
             </div>
             <div>
-              <img src={whatsApp} alt="whatsApp" className="linkedin" />
+              <a href="https://web.whatsapp.com/">
+                <img src={whatsApp} alt="whatsApp" className="linkedin" />
+              </a>
             </div>
           </div>
         </div>

@@ -21,13 +21,17 @@
   text-align: center;
 }
 .about-descripcion {
-  width: 70vw;
-  height: 19vh;
+  width: 45vw;
   color: black;
-  font-size: 2vw;
-  margin-top: 50px;
-  text-align: center;
+  font-size: 1.5vw;
+  margin-top: 5vw;
 }
 .boton {
-  margin-top: 90px;
+  margin-top: 30px;
+}
+.orden {
+  display: flex;
+}
+.pc {
+  width: 30vw;
 }

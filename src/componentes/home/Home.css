@@ -30,9 +30,9 @@
 }
 .compu {
   position: absolute;
-  top: 25vh; /* Ajusta la posición vertical de la imagen */
-  left: 5vw; /* Ajusta la posición horizontal de la imagen */
+  top: 20vh; /* Ajusta la posición vertical de la imagen */
+  right: 6vw; /* Ajusta la posición horizontal de la imagen */
   margin-left: 45vw;
   z-index: 90;
-  width: 30vw;
+  width: 50vw;
 }

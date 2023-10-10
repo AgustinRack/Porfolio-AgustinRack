@@ -1,7 +1,7 @@
 .skill-container {
   background-color: yellow;
   width: 98.8vw;
-  height: 100vh;
+  height: 80vh;
   background-image: linear-gradient(to bottom, transparent 95%, black 100%);
   text-align: center;
 }

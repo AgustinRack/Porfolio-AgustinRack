@@ -4,18 +4,20 @@
   flex-direction: column;
   align-items: center;
   width: 98.8vw;
-  height: 100vh;
+  height: 70vh;
   background-image: linear-gradient(to bottom, transparent 95%, yellow 100%);
 }
-.contact {
-  text-align: center;
+.contacto {
+  display: flex;
+  justify-content: center;
   font-family: "Open Sans", sans-serif;
   font-family: "Pacifico", cursive;
   font-family: "Qwitcher Grypen", cursive;
   font-family: "Shadows Into Light", cursive;
-  font-size: 145px;
   font-weight: 145px;
-  color: black;
+  font-size: 80px;
+  color: yellow;
+  padding-top: 50px;
 }
 .formulario-container {
   background-color: black;
@@ -41,7 +43,19 @@ footer {
   color: black;
   padding: 10px;
   text-align: center;
+  justify-content: space-between;
 }
 footer p {
   font-size: 14px;
+}
+.linkedin {
+  width: 6vw;
+  margin-top: 5vw;
+  margin-right: 7vw;
+  margin-left: 7vw;
+}
+.contactos-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

@@ -1,47 +1,30 @@
 import React from "react";
-import Form from "react-bootstrap/Form";
 import "../contacts/Contacts.css";
+import linkedin from "../../assets/contactos/linkedin.png";
+import gitHub from "../../assets/contactos/gitHub.png";
+import whatsApp from "../../assets/contactos/whatsApp.png";
+import email from "../../assets/contactos/email.png";
 
 function Contactos() {
   return (
     <div>
       <div className="contacts-container">
         <div className="contact">
-          <h1>CONTACTOS</h1>
-        </div>
-        <div className="formulario-container">
-          <Form>
-            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label className="text-contenido">Nombre</Form.Label>
-              <Form.Control
-                type="name"
-                placeholder="Nombre"
-                className="holder"
-              />
-            </Form.Group>
-            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label className="text-contenido"> Email address</Form.Label>
-              <Form.Control
-                type="email"
-                placeholder="Escribe tu mail"
-                className="holder"
-              />
-            </Form.Group>
-            <Form.Group
-              className="mb-3"
-              controlId="exampleForm.ControlTextarea1"
-            >
-              <Form.Label className="text-contenido">
-                Example textarea
-              </Form.Label>
-              <Form.Control
-                as="textarea"
-                rows={3}
-                placeholder="Escribir mensaje"
-                className="holder"
-              />
-            </Form.Group>
-          </Form>
+          <h1 className="contacto">CONTACTOS</h1>
+          <div className="contactos-icon">
+            <div>
+              <img src={email} alt="email" className="linkedin" />
+            </div>
+            <div>
+              <img src={linkedin} alt="linkedin" className="linkedin" />
+            </div>
+            <div>
+              <img src={gitHub} alt="gitHub" className="linkedin" />
+            </div>
+            <div>
+              <img src={whatsApp} alt="whatsApp" className="linkedin" />
+            </div>
+          </div>
         </div>
       </div>
       <footer>

@@ -23,32 +23,32 @@ function Skill() {
     <div className="skill-container">
       <h1 className="skill">SKILL</h1>
       <h2 className="lenguajes">LENGUAJES</h2>
-      <img src={javascript} alt="javascript" className="javascript" />
+      <img src={javascript} alt="javascript" className="node" />
       <div className="backFront">
         <div>
           <h2 className="backend">BACK END</h2>
           <img src={node} alt="node" className="node" />
-          <img src={express} alt="express" className="express" />
-          <img src={mongo} alt="mongo" className="mongo" />
-          <img src={post} alt="post" className="post" />
-          <img src={sequelize} alt="sequelize" className="sequelize" />
-          <img src={vite} alt="vite" className="vite" />
+          <img src={express} alt="express" className="node" />
+          <img src={mongo} alt="mongo" className="node" />
+          <img src={post} alt="post" className="node" />
+          <img src={sequelize} alt="sequelize" className="node" />
+          <img src={vite} alt="vite" className="node" />
         </div>
         <div>
           <h2 className="frontend">FRONT END</h2>
-          <img src={react} alt="react" className="react" />
-          <img src={axios} alt="axios" className="axios" />
-          <img src={bootstrap} alt="boostrap" className="bootstrap" />
-          <img src={css} alt="css" className="css" />
-          <img src={redux} alt="redux" className="redux" />
-          <img src={html} alt="html" className="html" />
-          <img src={materialUi} alt="materialUi" className="materialUi" />
+          <img src={react} alt="react" className="node" />
+          <img src={axios} alt="axios" className="node" />
+          <img src={bootstrap} alt="boostrap" className="node" />
+          <img src={css} alt="css" className="node" />
+          <img src={redux} alt="redux" className="node" />
+          <img src={html} alt="html" className="node" />
+          <img src={materialUi} alt="materialUi" className="node" />
         </div>
       </div>
       <h2 className="additional">ADDITIONAL</h2>
-      <img src={git} alt="git" className="git" />
-      <img src={figma} alt="figma" className="figma" />
-      <img src={photoshop} alt="photoshop" className="photoshop" />
+      <img src={git} alt="git" className="node" />
+      <img src={figma} alt="figma" className="node" />
+      <img src={photoshop} alt="photoshop" className="node" />
     </div>
   );
 }

@@ -20,8 +20,8 @@
 .backFront {
   display: flex;
   flex-direction: row;
-  justify-content: space-around; /* Esto distribuirá los elementos horizontalmente */
-  align-items: center; /* Esto centrará los elementos verticalmente */
+  justify-content: space-around;
+  align-items: center;
 }
 .backend {
   padding-top: 30px;
@@ -32,71 +32,10 @@
 .additional {
   padding-top: 30px;
 }
-.javascript {
-  width: 40px;
-  height: auto;
-}
 .node {
   width: 40px;
   height: auto;
 }
-.express {
-  width: 40px;
-  height: auto;
-}
-.mongo {
-  width: 40px;
-  height: auto;
-}
-.post {
-  width: 40px;
-  height: auto;
-}
-.sequelize {
-  width: 40px;
-  height: auto;
-}
-.react {
-  width: 40px;
-  height: auto;
-}
-.axios {
-  width: 40px;
-  height: auto;
-}
-.bootstrap {
-  width: 40px;
-  height: auto;
-}
-.css {
-  width: 40px;
-  height: auto;
-}
-.redux {
-  width: 40px;
-  height: auto;
-}
-.git {
-  width: 40px;
-  height: auto;
-}
-.figma {
-  width: 40px;
-  height: auto;
-}
-.materialUi {
-  width: 40px;
-  height: auto;
-}
-.html {
-  width: 40px;
-  height: auto;
-}
-.photoshop {
-  width: 40px;
-  height: auto;
-}
-.vite {
-  width: 40px;
-  height: auto;
+.node:hover {
+  transform: translate(0, -5px);
 }

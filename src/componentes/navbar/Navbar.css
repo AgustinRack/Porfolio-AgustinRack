@@ -1,23 +1,7 @@
 .color-navbar {
-  background-image: linear-gradient(
-    to bottom,
-    rgb(129, 129, 2) -20%,
-    black 70%
-  );
-  box-shadow: 0px 2px 4px black(246, 250, 0);
-  background-color: black !important ;
+  background-color: #9b4819 !important ;
 }
 .colorLetras {
-  color: yellow !important;
+  color: #f4f1e8 !important;
   font-family: "Open Sans", sans-serif, cursive;
-}
-.colorLetras1 {
-  color: yellow !important;
-  font-family: "Open Sans", sans-serif;
-  font-family: "Pacifico", cursive;
-  font-family: "Qwitcher Grypen", cursive;
-  font-family: "Shadows Into Light", cursive;
-  font-weight: 205px;
-  font-size: xx-large;
-  margin-right: 15px;
 }

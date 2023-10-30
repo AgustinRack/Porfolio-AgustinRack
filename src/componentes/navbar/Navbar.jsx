@@ -7,8 +7,8 @@ function MyNavbar() {
   return (
     <Navbar expand="sm" className="color-navbar fixed-top">
       <Container>
-        <Nav.Link className="colorLetras1" href="/#navbar">
-          Agustin Rack
+        <Nav.Link className="colorLetras" href="/#navbar">
+          Agustin
         </Nav.Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -21,9 +21,6 @@ function MyNavbar() {
             </Nav.Link>
             <Nav.Link className="colorLetras" href="/#skill">
               Skill
-            </Nav.Link>
-            <Nav.Link className="colorLetras" href="/#contactos">
-              Contact
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

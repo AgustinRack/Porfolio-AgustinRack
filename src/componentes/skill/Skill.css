@@ -1,8 +1,7 @@
 .skill-container {
-  background-color: yellow;
-  width: 98.8vw;
-  height: 80vh;
-  background-image: linear-gradient(to bottom, transparent 95%, black 100%);
+  background-color: #f4f1e8;
+  width: 100vw;
+  height: auto;
   text-align: center;
 }
 .skill {
@@ -13,15 +12,20 @@
   font-family: "Qwitcher Grypen", cursive;
   font-family: "Shadows Into Light", cursive;
   font-weight: 145px;
-  font-size: 80px;
-  color: black;
-  padding-top: 50px;
+  font-size: 60px;
+  color: #9b4819;
+  padding-top: 0vw;
 }
 .backFront {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  color: #9b4819;
+  padding: 3vw;
+}
+.lenguajes {
+  padding-top: 30px;
 }
 .backend {
   padding-top: 30px;
@@ -38,4 +42,21 @@
 }
 .node:hover {
   transform: translate(0, -5px);
+}
+.cuadrado {
+  height: 10vw;
+  width: 25vw;
+  margin-top: -3vw;
+  margin-bottom: 5vw;
+}
+footer {
+  background-color: #f4f1e8;
+  width: 100vw;
+  color: #9b4819;
+  padding: 10px;
+  text-align: center;
+  justify-content: space-between;
+}
+footer p {
+  font-size: 14px;
 }

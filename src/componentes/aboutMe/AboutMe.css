@@ -1,14 +1,13 @@
 .about-contenedor {
-  background-color: yellow;
+  background-color: #f4f1e8;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 98.8vw;
-  height: 100vh;
+  width: 100vw;
+  height: 90vh;
   max-width: 1400px;
   margin: auto;
-  background-image: linear-gradient(to bottom, transparent 95%, black 100%);
 }
 .about-titulo {
   font-family: "Open Sans", sans-serif;
@@ -16,22 +15,28 @@
   font-family: "Qwitcher Grypen", cursive;
   font-family: "Shadows Into Light", cursive;
   font-weight: 145px;
-  font-size: 80px;
-  color: black;
+  font-size: 60px;
+  color: #9b4819;
   text-align: center;
+  margin-top: -6vh;
+  margin-left: 50vh;
 }
 .about-descripcion {
-  width: 45vw;
+  width: 50vw;
   color: black;
   font-size: 1.5vw;
   margin-top: 5vw;
 }
 .boton {
   margin-top: 30px;
+  color: #9b4819;
 }
 .orden {
   display: flex;
 }
 .pc {
   width: 30vw;
+}
+.nombre4 {
+  color: black;
 }

@@ -8,7 +8,9 @@ function AboutMe() {
     <div>
       <div className="about-contenedor">
         <div className="about-contenido">
-          <h1 className="about-titulo">ABOUT ME</h1>
+          <h1 className="about-titulo">
+            ABOUT <span class="nombre4">Agustin Rack</span>{" "}
+          </h1>
           <div className="orden">
             <img src={agustinEspalda} alt="pcNet" className="pc" />
             <p className="about-descripcion">
@@ -23,10 +25,9 @@ function AboutMe() {
           </div>
           <div className="boton d-flex justify-content-center align-items-center">
             <Button
-              variant="warning"
+              variant="dark"
               className="boton"
-              href="/assets/CV-agustin.rack.pdf"
-              download="CV-agustin.rack.pdf"
+              href="https://drive.google.com/file/d/1TOQPKYlIb_LQP5gwd3-pUndayLv3cryA/view?usp=sharing"
             >
               DESCARGAR CV
             </Button>

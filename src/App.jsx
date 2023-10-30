@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./componentes/home/Home";
 import AboutMe from "./componentes/aboutMe/AboutMe";
 import Skill from "./componentes/skill/Skill";
-import Contactos from "./componentes/contacts/Contacts";
 import MyProyectos from "./componentes/proyectos/Proyectos";
 
 function App() {
@@ -24,9 +23,6 @@ function App() {
       </div>
       <div id="skill">
         <Skill />
-      </div>
-      <div id="contactos">
-        <Contactos />
       </div>
     </div>
   );

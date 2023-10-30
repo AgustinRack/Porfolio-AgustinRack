@@ -21,11 +21,14 @@ import vite from "../../assets/skills/vite.png";
 function Skill() {
   return (
     <div className="skill-container">
-      <h1 className="skill">SKILL</h1>
-      <h2 className="lenguajes">LENGUAJES</h2>
-      <img src={javascript} alt="javascript" className="node" />
+      <h1 className="skill">SKILLS</h1>
+
       <div className="backFront">
-        <div>
+        <div className="cuadrado">
+          <h2 className="lenguajes">LENGUAJES</h2>
+          <img src={javascript} alt="javascript" className="node" />
+        </div>
+        <div className="cuadrado">
           <h2 className="backend">BACK END</h2>
           <img src={node} alt="node" className="node" />
           <img src={express} alt="express" className="node" />
@@ -34,7 +37,7 @@ function Skill() {
           <img src={sequelize} alt="sequelize" className="node" />
           <img src={vite} alt="vite" className="node" />
         </div>
-        <div>
+        <div className="cuadrado">
           <h2 className="frontend">FRONT END</h2>
           <img src={react} alt="react" className="node" />
           <img src={axios} alt="axios" className="node" />
@@ -44,11 +47,16 @@ function Skill() {
           <img src={html} alt="html" className="node" />
           <img src={materialUi} alt="materialUi" className="node" />
         </div>
+        <div className="cuadrado">
+          <h2 className="additional">ADDITIONAL</h2>
+          <img src={git} alt="git" className="node" />
+          <img src={figma} alt="figma" className="node" />
+          <img src={photoshop} alt="photoshop" className="node" />
+        </div>
       </div>
-      <h2 className="additional">ADDITIONAL</h2>
-      <img src={git} alt="git" className="node" />
-      <img src={figma} alt="figma" className="node" />
-      <img src={photoshop} alt="photoshop" className="node" />
+      <footer>
+        <p>&copy; 2023 Agustin Rack. Todos los derechos reservados.</p>
+      </footer>
     </div>
   );
 }

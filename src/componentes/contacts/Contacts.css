@@ -1,9 +1,9 @@
 .contacts-container {
-  background: black;
+  background: #f4f1e8;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 98.8vw;
+  width: 100vw;
   height: 70vh;
   background-image: linear-gradient(to bottom, transparent 95%, yellow 100%);
 }
@@ -15,9 +15,9 @@
   font-family: "Qwitcher Grypen", cursive;
   font-family: "Shadows Into Light", cursive;
   font-weight: 145px;
-  font-size: 80px;
-  color: yellow;
-  padding-top: 50px;
+  font-size: 60px;
+  color: #9b4819;
+  padding-top: 10vw;
 }
 .formulario-container {
   background-color: black;
@@ -39,8 +39,9 @@
   margin-left: 12px;
 }
 footer {
-  background-color: yellow;
-  color: black;
+  background-color: #f4f1e8;
+  width: 100vw;
+  color: #9b4819;
   padding: 10px;
   text-align: center;
   justify-content: space-between;
